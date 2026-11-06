@@ -43,6 +43,9 @@ The Power BI report includes:
 - Slicers for loan grade, loan intent and home ownership
 
 <!-- Add a dashboard screenshot here: ![Dashboard](images/dashboard.png) -->
+   ![Credit Risk Dashboard](dashboard.png)
+   *Dashboard built on a 170-row sample extracted with SQL from the full dataset.*<img width="1443" height="809" alt="dashboard png" src="https://github.com/user-attachments/assets/095f9bb9-1307-4e5e-9f0d-46ab834c13a3" />
+
 
 ## Repository structure
 
@@ -57,4 +60,7 @@ The Power BI report includes:
 MySQL, Power BI Desktop
 
 ## Key insights
-- (Add your findings here, e.g. which loan grades or ownership types have the highest default rate)
+-   - Default rate rises as loan grade worsens, from 0.37 (grade A) to 0.82 (grade E).
+   - Renters have the highest default rate (0.64); homeowners the lowest (0.22).
+   - Renters make up most of the loans in the dataset (111 of 170).
+   - Very high interest-rate buckets show 100% default, but each has very few loans.
